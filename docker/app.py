@@ -1,7 +1,3 @@
-# Modify your application to retrieve database credentials securely from AWS
-# Secrets Manager. You'll need AWS credentials configured that have permission
-# to access Secrets Manager.
-
 import boto3
 from botocore.exceptions import ClientError
 
