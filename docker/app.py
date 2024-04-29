@@ -30,3 +30,5 @@ import json
 secrets = json.loads(get_secret())
 DB_USER = secrets['username']
 DB_PASS = secrets['password']
+
+## use this credential to connect to DB
